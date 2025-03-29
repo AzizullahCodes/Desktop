@@ -1,0 +1,39 @@
+/* @font-face{font-family: ahmad-font;
+src:url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf')}
+/* h1 {font-family: sans;} */
+/* @font-face {font-family: aziz-font;
+src:url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf')}
+
+/* h2 {font-family: sans-serif;}
+h3 {font-family: monospace;} */ 
+
+  /* body {font-family: aziz-font;} 
+  .span {font-weight: bold;}
+  h1 {font-style:normal;
+letter-spacing: 5px;}
+  p {text-decoration:olive;
+word-spacing: 5px;}
+.l {font-size: 80px;} */
+/* div {background-color: red;
+height:100vh;
+}
+p {width:200px;
+height: 200px;
+background-color: white;} */
+/* div {background-color: red;
+  width:300px;
+height: 300px;
+
+border-width: 6px;
+border-color: black;
+border-style: solid;
+border-radius: 10px;
+padding:20px;
+
+position:absolute;
+left:500px;
+} */
+input {background-color: red;
+border:none;
+border-bottom: 5px solid black;
+width:60%;}
