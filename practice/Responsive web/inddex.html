@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header-section -->
+  <div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo">Azizullah</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Web Developer</p>
+            <h1>Hi, I'm <span>Azizullah</span> <br>From Karachi</h1>
+        </div>
+    </div>
+  </div>  
+  <!-- About-section -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="aziz" src="./assets/images/aziz.jpg" alt="aziz-img">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="row-h1">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quaerat quia repellat esse eveniet, ab reiciendis facilis voluptatem illo libero earum non, accusamus eligendi suscipit inventore itaque ipsa iste quo!
+                    Pariatur fugiat laboriosam aspernatur beatae tempore ipsum placeat et possimus necessitatibus sed. Iusto saepe porro neque nihil repudiandae amet quibusdam corporis labore cum ab eaque qui cumque velit, et possimus.
+                     </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Web Development</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Frontend Web Development</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Frontend Web Development</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                        </ul>
+                     </div>
+                </div>
+            
+        </div>
+    </div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
