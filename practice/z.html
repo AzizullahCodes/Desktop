@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #ffcc00;
+    }
+
+    #nav-toggle {
+      display: none;
+    }
+
+    .menu-icon {
+      font-size: 2rem;
+      cursor: pointer;
+      display: none;
+    }
+
+    /* Mobile side menu */
+    nav.mobile-menu {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 250px;
+      height: 100vh;
+      background-color: #444;
+      padding: 2rem;
+      transition: left 0.3s ease-in-out;
+      z-index: 1;
+    }
+
+    nav.mobile-menu ul {
+      list-style: none;
+      margin-top: 2rem;
+    }
+
+    nav.mobile-menu ul li {
+      margin-bottom: 1.2rem;
+    }
+
+    nav.mobile-menu ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    .close-btn {
+      font-size: 2rem;
+      color: white;
+      cursor: pointer;
+      display: block;
+      text-align: right;
+    }
+
+    /* Toggle mobile nav when checkbox is checked */
+    #nav-toggle:checked + nav.mobile-menu {
+      left: 0;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none; /* hide inline links on mobile */
+      }
+
+      .menu-icon {
+        display: block;
+      }
+
+      nav.mobile-menu {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with logo and menu -->
+  <header>
+    <div class="logo">MySite</div>
+
+    <!-- Inline nav links (for desktop) -->
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Hamburger icon (label that toggles nav) -->
+    <label for="nav-toggle" class="menu-icon">&#9776;</label>
+  </header>
+
+  <!-- Hidden checkbox toggler -->
+  <input type="checkbox" id="nav-toggle" />
+
+  <!-- Mobile nav menu -->
+  <nav class="mobile-menu">
+    <label for="nav-toggle" class="close-btn">&times;</label>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+@import url(./border.css);
+
+
+:root{--color:blue;
+--heading-color:red;}
+
+
+
+
+
+h1{color:var(--color);
+color:var(--heading-color)}
+p{background-color: var(--heading-color);
+color:var(--color)}
+/* div {border:50px dotted red;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding:30px;
+border-image: url("./assets/fonts/") 50 round;
+} */

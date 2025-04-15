@@ -1,0 +1,27 @@
+/* *{margin:0;
+padding: 0;} */
+
+/* background-color: yellow; */
+/* display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background:radial-gradient(circle,pink,blue);} */
+
+h1{display: flex;
+
+justify-content: center;
+align-items: center;
+font-size: 70px;
+text-shadow:52px 22px 5px red}
+
+.box{border:2px solid black;
+
+display: flex;
+align-items: center;
+justify-content: center;
+height: 40vh;
+max-width: 500px;
+position: relative;
+left:400px;
+box-shadow: 20px 30px 11px red;}
