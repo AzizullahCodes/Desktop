@@ -1,0 +1,62 @@
+/* div{height: 150px;
+width: 150px;
+background-color: blue;
+color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: width 2s,height 4s,background-image 4s;
+} */
+/* h1{display: flex;
+justify-content: center;
+align-items: center;} */
+/* div:hover{width: 800px;
+height: 800px;
+background-image: url(./assets/WhatsApp\ Image\ 2025-03-30\ at\ 11.14.43_b04d4d7f.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;} */
+/* 
+  div{height: 150px;
+    width: 150px;
+    margin:20%;
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+transition: width 2s, height 2s,transform 5s;
+    
+    }  
+    div:hover{height:300px;
+    width:300px;
+transform: rotate(360deg);} */
+    /* img{width:
+    position: relative;
+    top:100px;
+    left: 400px;
+    transition: transform 5s;
+    overflow: hidden;
+}*/
+/* img{width:150px;height: 150px;
+transition: transform 5s;
+
+margin:20px;}
+.container{background-color: red;
+   
+}
+.box{padding:20px;
+    width:150px;height: 150px;
+overflow: hidden;}
+img:hover{transform:scale(2,3);
+}
+ */
+div{height: 400px;
+width: 300px;
+background-color: aqua;
+overflow: hidden;}
+img{width: 80%;
+padding:30px;
+transition: transform 7s;}
+
+img:hover{transform: scale(3,2);}
